@@ -226,7 +226,7 @@
       return prefixPath;
     }
     prefixPath = window.__WHISTLE_PATH_PREFIX__;
-    if (/^\/[\w.\/-]+$/.test(prefixPath) && prefixPath.length <= 128) {
+    if (/^\/[\w./-]+$/.test(prefixPath) && prefixPath.length <= 128) {
       var len = prefixPath.length - 1;
       if (prefixPath[len] === '/') {
         prefixPath = prefixPath.substring(0, len);
