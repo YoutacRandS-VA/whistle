@@ -1,4 +1,4 @@
-# v2.7.77
+# v2.9.77
 1. feat: `locationHref://url` 和 `redirect://url` 自动去重
 2. feat: 支持通过 `jsPrepend://` 设置 `window.__WHISTLE_PATH_PREFIX__ = '/path/to';`（可以配置规则或集成在插件） 修改 Whistle 内部路径 `/.whistle-path.5b6af7b9884e1165/` 改成 `${window.__WHISTLE_PATH_PREFIX__}/.whistle-path.5b6af7b9884e1165/`，方便通过 ngnix 转发（ngnix 可以把 `/path/to` 路径去掉再发送给 Whistle）
 
